@@ -1,3 +1,8 @@
-const name = document.querySelector("#input-name");
-const birthdate = document.querySelector("#input-birthdate");
 const saveButton = document.querySelector("#save-button");
+
+saveButton.addEventListener("click", function() {
+    let nameInput = document.querySelector("#input-name").value;
+    let birthdateInput = document.querySelector("#input-birthdate").value;
+    console.log(nameInput);
+    console.log(birthdateInput);
+});
