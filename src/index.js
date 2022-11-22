@@ -5,4 +5,7 @@ saveButton.addEventListener("click", function() {
     let birthdateInput = document.querySelector("#input-birthdate").value;
     console.log(nameInput);
     console.log(birthdateInput);
+    dateToChange = new Date(birthdateInput);
+    dateFormatted = dateToChange.toLocaleDateString('pt-BR', {timeZone: 'UTC'});
+    console.log(dateFormatted);
 });
