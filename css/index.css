@@ -94,3 +94,8 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+#heading {
+  color: #A683E3;
+  text-align: center;
+}
