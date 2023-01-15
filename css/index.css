@@ -15,6 +15,10 @@ body {
   font-size: 0.875rem;
 }
 
+ul {
+  list-style-type: none;
+}
+
 main {
   width: 100%;
   height: auto;
