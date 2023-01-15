@@ -9,20 +9,14 @@
 </head>
 <body>
     <main>
-        <h1>Registration of people</h1>
-        <form>
-            <fieldset class="form js-form">
-                <label for="name">
-                    Name
-                    <input type="text" name="name" class="form-field js-field" id="input-name" minlength="3" maxlength="120" pattern="([aA-zZ]+)" required>
-                </label>
-                <label for="birthdate">
-                    Birthdate
-                    <input type="date" name="birthdate" class="form-field js-field" id="input-birthdate" required>
-                </label>
-                <button type="button" id="save-button">Save</button>
-            </fieldset>
-        </form>
+        <div class="container">
+            <h1 id="heading"></h1>
+        </div>
+        <section class="container">
+            <h2 id="numberOfBirthdays"></h2>
+            <div id="people"></div>
+            <button onclick="clearAll()">Clear All</button>
+        </section>
     </main>
     <script src="./src/index.js"></script>
 </body>
