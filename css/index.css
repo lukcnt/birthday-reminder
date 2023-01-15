@@ -17,10 +17,13 @@ main {
 }
 
 fieldset {
+  display: flex;
 }
 
 label {
+  display: flex;
 }
 
 button {
+  display: flex;
 }
