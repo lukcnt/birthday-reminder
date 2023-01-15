@@ -45,21 +45,3 @@ h3 {
 h4 {
   font-size: 0.875rem;
 }
-
-main {
-  width: 100%;
-  height: auto;
-  display: flex;
-}
-
-fieldset {
-  display: flex;
-}
-
-label {
-  display: flex;
-}
-
-button {
-  display: flex;
-}
