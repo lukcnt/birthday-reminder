@@ -33,6 +33,19 @@ h4 {
   margin-bottom: 0.75rem;
 }
 
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+
 main {
   width: 100%;
   height: auto;
